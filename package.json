@@ -1,4 +1,5 @@
 {
+  "homepage": "http://josetommaso.github.io/blog-export",
   "name": "blogs-import",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "prebuild": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
