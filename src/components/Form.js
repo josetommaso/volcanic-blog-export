@@ -76,7 +76,7 @@ const Form = () => {
                 <div className="card-body">
                     <h5 className="card-title">How to use:</h5>
                     <ol className="pl-0">
-                        <li className="mb-2">Introduce a Website URL. <span className="d-block">Example: https://www.volcanic.com</span></li>
+                        <li className="mb-2">Introduce a Website URL <span className="d-block">Example: https://www.volcanic.com</span></li>
                         <li className="mb-2">Type how many blogs you would like in your CSV file. default: 20 blogs</li>
                         <li className="mb-2">Click 'Load JSON' button</li>
                         <li className="mb-2">Relax</li>
