@@ -1,3 +1,15 @@
+.spinner-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .lds-ring {
   display: inline-block;
   position: relative;
@@ -11,10 +23,10 @@
   width: 64px;
   height: 64px;
   margin: 8px;
-  border: 8px solid #000;
+  border: 8px solid #e77c27;
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #000 transparent transparent transparent;
+  border-color: #e77c27 transparent transparent transparent;
 }
 .lds-ring div:nth-child(1) {
   animation-delay: -0.45s;
